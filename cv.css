@@ -1,0 +1,48 @@
+.wrapper {
+    display: grid;
+    grid-template-areas: 
+    'ph m'
+    'p p';
+    grid-template-rows : 300px  770px;
+    grid-template-columns: 220px  770px;
+    grid-row-gap: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+.main {
+    grid-area: m;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    padding: 2em;
+}
+
+.personal {
+    grid-area: p;
+    color:  rgb(255, 255, 255);
+}
+body {
+    background-color: rgb(63, 77, 90);
+}
+
+
+.photo {
+    grid-area: ph;
+    padding-top: 50px;
+    padding-bottom: auto;
+    
+    
+}
+.photo img{
+    
+    width:200px;
+}
+.name {
+    font-size: 1.5em;
+    padding: 10px;
+<<<<<<< Updated upstream
+}
+=======
+}
+>>>>>>> Stashed changes
