@@ -1,48 +1,182 @@
-.wrapper {
-    display: grid;
-    grid-template-areas: 
-    'ph m'
-    'p p';
-    grid-template-rows : 300px  770px;
-    grid-template-columns: 220px  770px;
-    grid-row-gap: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1000px;
+.wrapper{
+    max-width:1440px;
+    
+   
+    background-size: cover;
+    margin: auto;
 }
-.main {
-    grid-area: m;
-    font-style: normal;
+.student{
+    max-width: 1200px;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    background:linear-gradient(to top right,rgb(128, 197, 253),rgb(132, 0, 255))
+}
+.student_main{
+    display:flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-left: 20px;
+   
+}
+.name{
+    font-family: 'Poppins', sans-serif;
+    font-size: 90px;
     color: rgb(255, 255, 255);
-    font-size: 1em;
-    padding: 2em;
-}
-
-.personal {
-    grid-area: p;
-    color:  rgb(255, 255, 255);
-}
-body {
-    background-color: rgb(63, 77, 90);
-}
-
-
-.photo {
-    grid-area: ph;
-    padding-top: 50px;
-    padding-bottom: auto;
-    
+    padding-left: 0px;
+    padding-top: 100px;
+    margin: 0;
     
 }
-.photo img{
+.name span{
+    font-size: 50px
+}
+.profession{
+    font-family: 'Poppins', sans-serif;
+    font-size: 70px;
+    color: rgb(241, 255, 241);
+    padding-left: 100px;
     
-    width:200px;
 }
-.name {
-    font-size: 1.5em;
-    padding: 10px;
-<<<<<<< Updated upstream
+.student_photo{
+  max-width:300px;
+  max-height: 300px;
+  margin-top: 100px;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: darkturquoise;
 }
-=======
+.personal{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    text-align: left;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-areas: 
+    'qua edu edu'
+    'exp cod cod'
+    'cha cha cha'
+    'obj obj obj';
+    background:linear-gradient(to top left,rgb(132, 0, 255),rgb(128, 197, 253));
 }
->>>>>>> Stashed changes
+.education{
+    margin: 20px;
+    grid-area:edu;
+    text-align: right;
+}
+.qualifications{
+
+    margin: 0 50px;
+    grid-area:qua;
+}
+.work_exp{
+    grid-area: exp;
+    margin: 50px;
+}
+.code{
+    grid-area: cod;
+    margin: 50px;
+    text-align: right;
+}
+.objective{
+    grid-area: obj;
+    margin: 50px;
+    
+}
+.characteristic{
+    grid-area: cha;
+    margin: 50px;
+}
+.but{
+    background-color: rgb(0, 153, 255);
+    color: white;
+    border: rgb(0, 153, 255);
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+    outline: none;
+    border-radius: 5px;
+    position: absolute;
+    width:300px;
+    top:0px;
+    left:-400px;
+}
+.dropdown{
+    position: relative;
+    display: inline;
+}
+.dropdown_child {
+    font-size: 15px;
+    position:absolute;
+    top:-100px;
+    left:-600px;
+    display: none;
+    background-color: black;
+    text-align: left;
+
+}
+.dropdown:hover .dropdown_child {
+    display: block;
+   
+}
+
+h3{
+    margin: 0;
+}
+.logo img{
+    margin-right: 10px;
+    width:80px;
+}
+.logo_3 img{
+    width:280px;
+}
+.logo:hover{
+    opacity: 0.75;
+}
+.logo:active{
+    opacity: 0.5;
+}
+
+.logo_3:hover{
+    opacity: 0.75;
+}
+.logo_3:active{
+    opacity: 0.5;
+
+}
+.nav{max-width: 1200px;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    background:linear-gradient(to top right,rgb(128, 197, 253),rgb(132, 0, 255))
+}
+.nav{
+    margin-bottom: 100px;
+}
+.links_list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+   padding-left: 0;
+    list-style-type: none;
+    
+}
+.item{
+    padding: 20px;
+}
+.footer_img img{
+    width:80px;
+}
+.contacts{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
