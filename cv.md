@@ -40,4 +40,55 @@ Main objective is to switch my profession and get real experience in front-end d
 ---
 *About myself:*  
 Sociable - easily find a common language with anybody, responsible - having large expirience beeing foreman(worked with customers, inspections and regulatory authorities,
-material reports), punctual, motivated.
+material reports), punctual, motivated. 
+
+--- 
+
+*Code examples:* 
+
+Coded on Python 
+
+Сhecks if a class inherits from another using graphs 
+```from collections import deque
+def search(list):
+    if list[0] == list[1]:
+        return True
+    search_queue = deque()
+    if list[1] not in graph:
+        graph[list[1]] = []
+    search_queue += graph[list[1]]
+    searched = []
+    while search_queue:
+        parent = search_queue.popleft()
+        if not parent in searched:
+            if is_parent(parent):
+                return True
+            else:
+                search_queue += graph[parent]
+                searched.append(parent)
+    return False
+def is_parent(name):
+    if k[0] in name :
+        return True
+    else:
+        return False
+n = int(input())
+graph = {}
+for i in range(n):
+    s = input().strip().split(':')
+    if len(s) > 1:
+        if s[0].strip() in graph:
+            s[1] = s[1].replace(' ','')
+            for i in range(len(s[1])):
+                graph[s[0].strip()].append((s[1][i]))
+        else:
+            graph[s[0].strip()] = s[1].split()
+    else:
+        graph[s[0]] = []
+j = int(input())
+for i in range(j):
+    k = input().split()
+    if search(k) == True:
+        print('Yes')
+    else:
+        print('No')```
