@@ -169,11 +169,11 @@ h3{
 .item{
     padding: 20px;
 }
-.footer_img:hover{
-    opacity:0,75;
+.item:hover{
+    opacity:0.75;
 }
-.footer_img:active{
-    opacity:0,5;
+.item:active{
+    opacity:0.5;
 }
 .footer_img img{
     width:80px;
