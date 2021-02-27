@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cv.css">
+    <title>CV</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <figure class="student">
+                <figcaption class="student_main">
+                    <h1 class="name">Uladzimir Kamarou <br><span> 27 y.o., Vitebsk</span></h1>
+                    <h2 class="profession">Frontend developer</h2>
+                </figcaption>
+                <img src="./DSC_0009.JPG" alt="student_photo" class="student_photo">
+            </figure>
+        </div>
+    </header>
+    <main class="main">
+        <div class="wrapper">
+            <section class="personal">
+                <div class="education">
+                    <h3> <i>Education</i></h3> <br>
+                    Polotsk State University</b>, Novopolotsk,Republic of Belarus. <i> 2015-2020</i>. <br>
+                    <b>Builder-engineer</b>,Bachelor of Industrial and Civil Building.(PGS in russian) <br>
+                    <b>Vitebsk State Technical College</b>, Vitebsk , Republic of Belarus. <i>2009-2013</i> <br>
+                    <b>Technician</b> of Industrial and Civil Building.(PGS in russian) <br>
+                </div>
+                <div class="qualifications">
+                    <h3><i>Qualifications</i></h3><br>
+                    <a href='https://habr.com/ru/post/275729/' class="logo_3"><img src="./img/pngwing.com.png"
+                            alt="logo"></a><br>
+                    <a href='https://www.python.org/' class="logo"><img src="./img/python.png" alt="python"></a>
+                    <a href='https://nodejs.org/en/' class="logo"><img src="./img/node.png" alt="node"></a>
+                    <a href='https://ru.reactjs.org/' class="logo"><img src="./img/react.png" alt="react"></a><br>
+                    <a href='https://git-scm.com/' class="logo"><img src="./img/git.png" alt="git"></a>
+                    <a href='https://www.microsoft.com/ru-ru/microsoft-365/project/project-management-software'
+                        class="logo"><img src="./img/project.png" alt="msproject"></a>
+                    <a href='https://www.autodesk.com/products/autocad/overview?term=1-YEAR&support=null'
+                        class="logo"><img src="./img/autodesk.png" alt="autodesk"></a>
+                </div>
+
+                <div class="work_exp">
+                    <i>Work experience</i>: <br>
+
+                    <b>Optic-fiber splicer</b> in LCC"Promenergostroy", 2016-2018 <br>
+                    <b>Foreman GC</b> in LCC "Plissastroy",2018~... <br>
+                </div>
+                <div class="code"> Code example: <br>
+                    <p>This code checks if a class inherits from another using graph theory</p>
+
+                    <div class="dropdown">
+                        <button class='but'>View code </button>
+                        <pre>
+                            <code class="dropdown_child">
+    from collections import deque
+    def search(list):
+        if list[0] == list[1]:
+            return True
+        search_queue = deque()
+        if list[1] not in graph:
+            graph[list[1]] = []
+        search_queue += graph[list[1]]
+        searched = []
+        while search_queue:
+            parent = search_queue.popleft()
+            if not parent in searched:
+                if is_parent(parent):
+                    return True
+                else:
+                    search_queue += graph[parent]
+                    searched.append(parent)
+        return False
+    def is_parent(name):
+        if k[0] in name :
+            return True
+        else:
+            return False
+    n = int(input())
+    graph = {}
+    for i in range(n):
+        s = input().strip().split(':')
+        if len(s) > 1:
+            if s[0].strip() in graph:
+                s[1] = s[1].replace(' ','')
+                for i in range(len(s[1])):
+                    graph[s[0].strip()].append((s[1][i]))
+            else:
+                graph[s[0].strip()] = s[1].split()
+        else:
+            graph[s[0]] = []
+    j = int(input())
+    for i in range(j):
+        k = input().split()
+        if search(k) == True:
+            print('Yes')
+        else:
+            print('No')
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+                    <div class="objective">
+                        <h3>Main objective</h3><br>Main objective is to switch my profession and get real experience in
+                        front-end
+                        development.
+                    </div>
+                    <div class="characteristic">
+                        <h3>About my self</h3><br>
+                        Sociable - easily find a common language with anybody, responsible - having large expirience
+                        beeing
+                        foreman(worked with customers, inspections and regulatory authorities,
+                        material reports), punctual, motivated.
+                    </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <nav class="nav">
+                <div class="contacts">Contacts:<br>Leningradskaya street 18,apt 16,<br> Vitebsk 210001, Rebuplic of Belarus,<br>
+                    efioss93@mail.ru , +375(29)-210-72-16 ,</div>
+                <div class="links">
+                    <ul class="links_list">
+                        <li class="item"><a href="/" class="footer_img"><img src="./img/github.png" alt="github"></a></li>
+                        <li class="item"><a href="/" class="footer_img"><img src="./img/vk.png" alt="vk"></a></li>
+                        <li class="item"><a href="/" class="footer_img"><img src="./img/rss.png" alt="rss"></a></li>
+                        <li class="item"><a href="/" class="footer_img"><img src="./img/yt.png" alt="youtube"></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <code></code>
+    </footer>
+</body>
+
+</html>
