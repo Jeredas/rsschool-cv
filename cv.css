@@ -169,6 +169,12 @@ h3{
 .item{
     padding: 20px;
 }
+.item:hover{
+    opacity:0,75;
+}
+.item:active{
+    opacity:0,5;
+}
 .footer_img img{
     width:80px;
 }
