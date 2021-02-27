@@ -169,10 +169,10 @@ h3{
 .item{
     padding: 20px;
 }
-.item:hover{
+.footer_img:hover{
     opacity:0,75;
 }
-.item:active{
+.footer_img:active{
     opacity:0,5;
 }
 .footer_img img{
