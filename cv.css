@@ -69,9 +69,20 @@
     text-align: right;
 }
 .qualifications{
-
+    width:320px;
     margin: 0 50px;
     grid-area:qua;
+}
+.qual_links{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+   padding-left: 0;
+    list-style-type: none;
+    
+}
+.qual_links li{
+    padding-left:10px;
 }
 .work_exp{
     grid-area: exp;
@@ -120,6 +131,7 @@
 
 }
 .dropdown:hover .dropdown_child {
+    cursor: pointer;
     display: block;
    
 }
@@ -178,7 +190,9 @@ h3{
 .footer_img img{
     width:80px;
 }
-.contacts{
+#i1{
+    padding-right:  250px;}
+.item p{
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     color: rgb(255, 255, 255);
