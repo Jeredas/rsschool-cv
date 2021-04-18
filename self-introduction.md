@@ -2,8 +2,9 @@
 Hi! My name is Vladimir Komarov I’m 27 years old and I’m beginner frontend-developer.  
 ---  
 
-I am from Belarus and live in Vitebsk. Probably better way to start self-introduction from education.
-	In 2009, I have finished school and entered Vitebsk State Technical College. My study lasted for 4 years and ended in 2013.  
+I am from Belarus and live in Vitebsk. Probably better way to start self-introduction from education.  
+
+In 2009, I have finished school and entered Vitebsk State Technical College. My study lasted for 4 years and ended in 2013.  
 I got diploma of builder –technician and entered Polotsk State University for short track in absentia.
 Unfortunately, later that year I was drafted to army and continued study only 2 years later.
 In 2020, I have finished Polotsk State University becoming engineer and getting bachelor's degree in industrial and civil building.  
