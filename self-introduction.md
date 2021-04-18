@@ -28,8 +28,11 @@ I’ve got acquainted with React, Redux, NodeJS  and Django.
 	My portfolio is not big yet . I’ve made few basic minigames (15, gallows, snake, magic ball etc) weather bot for telegram, and some little apps such as virtual   
 piano and photo philter. Soon it will be replenished with online zoo.
 	Thanks for watching, here is my contacts , please leave your feedback, bye.
-linkedIn Uladzimir Kamarou
-GitHub – Jeredas
-Discord Jeredas#9747
+linkedIn Uladzimir Kamarou  
+
+GitHub – Jeredas  
+
+Discord Jeredas#9747  
+
 
 
