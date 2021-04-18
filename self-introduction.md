@@ -1,6 +1,5 @@
 	Hi! My name is Vladimir Komarov I’m 27 years old and I’m beginner frontend-developer.   
 I am from Belarus and live in Vitebsk. Probably better way to start self-introduction from education.
----
 	In 2009, I have finished school and entered Vitebsk State Technical College. My study lasted for 4 years and ended in 2013.  
 I got diploma of builder –technician and entered Polotsk State University for short track in absentia.
 Unfortunately, later that year I was drafted to army and continued study only 2 years later.
@@ -13,7 +12,6 @@ I go (frontend, backend, mobile, dev. ops or may be something else). Also I took
 	One day my friend recommended me to try RSS and their frontend JavaScript course. The requirements were pretty tough but I decided to take this challenge.  
 First of all, because JavaScript is demanded language now and frontend in common is more obvious for beginner.
   So this is my story about how I got in your screen.  
-  ---
 	Some words about my motivation and myself.
 First of all I have advantage before the youth and students especially – this advantage is a real life experience. I have some from my current and past jobs.   
 I  clearly see what I expect from my profession and life. Unfortunately building sphere in my country is situating in «stone age» (I can talk all day about it but   
